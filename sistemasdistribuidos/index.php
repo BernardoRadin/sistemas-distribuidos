@@ -1,4 +1,4 @@
-<?php
+1<?php
 
 $servidor1 = 'http://localhost/sistemasdistribuidos/';
 $servidor2 = 'http://IP_SERVIDOR/sistemasdistribuidos2/';
@@ -34,7 +34,7 @@ if(isset($infoservidor2['numarquivos'])){
 }
 
 
-if($numeroarquivos < 1){
+if($numeroarquivos < 4){
     $servidor = $servidor1."recebe_arquivo.php";
 }else if(isset($numeroarquivos2) && $numeroarquivos2 <= 4){
     $servidor = $servidor2;
