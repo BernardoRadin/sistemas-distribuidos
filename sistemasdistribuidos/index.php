@@ -1,4 +1,4 @@
-1<?php
+<?php
 
 $servidor1 = 'http://localhost/sistemasdistribuidos/';
 $servidor2 = 'http://IP_SERVIDOR/sistemasdistribuidos2/';
